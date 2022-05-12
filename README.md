@@ -46,11 +46,3 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
-
-![](2022-05-11-10-27-59.png)
-![](2022-05-11-10-28-23.png)
-![](2022-05-11-10-29-16.png)
-![](2022-05-11-10-30-18.png)
-![](2022-05-11-10-30-35.png)
-![](2022-05-11-11-16-44.png)
-![](2022-05-11-13-18-17.png)

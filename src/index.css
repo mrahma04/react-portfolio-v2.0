@@ -58,7 +58,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #F7F7F7;
-  min-height: 6rem;
+  min-height: 8rem;
   background-image: var(--gradient-1);
 }
 
