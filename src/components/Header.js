@@ -2,6 +2,7 @@ function Header(props) {
 
     const {
         pages = [],
+        currentPage,
         setCurrentPage
     } = props
 
@@ -17,9 +18,12 @@ function Header(props) {
                     <ul>
                         {pages.map((page, index) => {
                             return (
-                                <li key={index}>
+                                <li
+                                    className={`${currentPage.name === page.name && 'navActive'}`}
+                                    key={index}
+                                >
                                     <span onClick={() => {
-                                        setCurrentPage(page.name)
+                                        setCurrentPage(page)
                                     }}>
                                         {page.name}
                                     </span>

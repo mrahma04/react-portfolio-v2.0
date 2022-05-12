@@ -2,18 +2,27 @@ import Header from './components/Header'
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import { useState } from 'react';
 // import './App.css';
 
 function App() {
 
   // make pages 'reactive' using hooks
-  let pages = [
+  const [pages] = useState([
     { name: 'About Me' },
     { name: 'Portfolio' },
     { name: 'Contact' },
     { name: 'Resume' }
-  ]
+  ])
+
+  // const pages = [
+  //   { name: 'About Me' },
+  //   { name: 'Portfolio' },
+  //   { name: 'Contact' },
+  //   { name: 'Resume' }
+  // ]
 
   // currentPage will initialize to pages[0]
   // the value of currentPage will be set by calling the 'setCurrentPage'
@@ -25,8 +34,12 @@ function App() {
   // conditionally render the middle section of the page
   // display Portfolio (and hide About) once Portfolio is 'clicked' etc.
   const renderPage = (currentPage) => {
-    if (currentPage === 'Portfolio') {
+    if (currentPage.name === 'Portfolio') {
       return <Portfolio></Portfolio>
+    } else if (currentPage.name === 'Contact') {
+      return <Contact></Contact>
+    } else if (currentPage.name === 'Resume') {
+      return <Resume></Resume>
     } else {
       return <About></About>
     }
@@ -40,7 +53,9 @@ function App() {
     }}>
       <Header
         pages={pages}
-        setCurrentPage={setCurrentPage}>
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      >
       </Header>
       {/* <About></About> */}
       {renderPage(currentPage)}
