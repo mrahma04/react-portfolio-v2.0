@@ -9,7 +9,7 @@ function Portfolio() {
             appUrl: 'https://whispering-depths-44425.herokuapp.com/',
             link: 'https://github.com/mrahma04/tech-blog-v2.0',
             description: 'Built using JS, Handlebars, CSS, HTML',
-            imageUrl: '../assets/img/tech-blog.jpeg'
+            imageUrl: '../../public/assets/img/tech-blog.jpeg'
         },
         {
             name: 'Password Generator',
@@ -23,7 +23,7 @@ function Portfolio() {
             appUrl: 'https://mrahma04.github.io/code-quiz-v2.0/',
             link: 'https://github.com/mrahma04/code-quiz-v2.0',
             description: 'Built using JS, HTML',
-            imageUrl: '/assets/img/code-quiz.jpeg'
+            imageUrl: '../../src/assets/img/code-quiz.jpeg'
         },
         {
             name: 'Note Taker',
