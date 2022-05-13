@@ -45,6 +45,8 @@ function App() {
     }
   }
 
+  console.log(currentPage)
+
   return (
     <div className="App" style={{
       display: "flex",
@@ -58,7 +60,11 @@ function App() {
       >
       </Header>
       {/* <About></About> */}
-      {renderPage(currentPage)}
+      {/* {renderPage(currentPage)} */}
+      {currentPage.name === 'About Me' && <About></About>}
+      {currentPage.name === 'Portfolio' && <Portfolio></Portfolio>}
+      {currentPage.name === 'Contact' && <ContactForm></ContactForm>}
+      {currentPage.name === 'Resume' && <Resume></Resume>}
       <div style={{
         marginTop: "auto"
       }}>

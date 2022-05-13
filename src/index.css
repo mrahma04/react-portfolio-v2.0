@@ -355,6 +355,12 @@ textarea {
   background-position: right;
 }
 
+.resume > * {
+  word-spacing: -.25rem;
+  margin-bottom: 1rem;
+  list-style-position: inside;
+}
+
 .footer-nav {
   display: flex;
   flex-grow: 1;
