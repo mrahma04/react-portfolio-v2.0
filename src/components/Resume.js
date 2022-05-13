@@ -5,7 +5,7 @@ function Resume() {
                 <h2>
                     Resume
                 </h2>
-                <div>Download my <a href="/assets/files/Resume-Mohammad-Rahman.pdf" style={{ color: '#845ec2' }} download>resume</a></div>
+                <div>Download my <a href="assets/files/Resume-Mohammad-Rahman.pdf" style={{ color: '#845ec2' }} download>resume</a></div>
                 <div>
                     <h3>Front-end Proficiencies</h3>
                     <ul>

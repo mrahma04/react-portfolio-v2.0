@@ -1,16 +1,12 @@
 # Employee Tracker v2.0 :gem::diamonds:
 
-#### This is my Portfolio site build entirely using React
+#### This is my Portfolio site build entirely using React. It is a Single Page Application (SPA) with 4 sections including an About Me, Portfolio, Contact and Resume. From the Resume page, you can download a PDF of my resume or use the Contact section to send me a message.
 
 ## To use this Application
 
-- Clone repo on a machine running Node.js
-- Navigate to local repo directory
-- Install Node modules using `npm i`
-- Type :pencil2:`npm start` to start app
+- Navigate to Link below
 
 [App URL](https://mrahma04.github.io/react-portfolio-v2.0/)
-[See Walkthrough Video](https://drive.google.com/file/d/1l9BFkCazykJpPWnsXDW7ZYggEzvqSGG2/view)
 
 ### User Story
 ```
@@ -48,4 +44,3 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 
-![](2022-05-13-15-54-31.png)
