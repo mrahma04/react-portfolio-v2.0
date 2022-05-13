@@ -1,6 +1,6 @@
 # Employee Tracker v2.0 :gem::diamonds:
 
-#### This is my Portfolio site build entirely using React. It is a Single Page Application (SPA) with 4 sections including an About Me, Portfolio, Contact and Resume. From the Resume page, you can download a PDF of my resume or use the Contact section to send me a message.
+#### This is my Portfolio site build entirely using React. It is a Single Page Application (SPA) with 4 sections including an About Me, Portfolio, Contact and Resume. From the Resume page, you can download a PDF of my resume or use the Contact section to send me a message. The site is also build using responsive web design principles and the layout dynamically changes based on screen size.
 
 ## To use this Application
 
@@ -43,4 +43,13 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
-
+### Screenshots
+![](/other/2022-05-13-19-07-51.png)
+![](/other/2022-05-13-19-11-07.png)
+![](/other/2022-05-13-19-08-20.png)
+![](/other/2022-05-13-19-08-52.png)
+![](/other/2022-05-13-19-09-11.png)
+![](/other/2022-05-13-19-09-27.png)
+![](/other/2022-05-13-19-10-05.png)
+![](/other/2022-05-13-19-10-18.png)
+![](/other/2022-05-13-19-10-38.png)
