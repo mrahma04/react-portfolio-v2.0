@@ -9,7 +9,7 @@ function Portfolio() {
             appUrl: 'https://whispering-depths-44425.herokuapp.com/',
             link: 'https://github.com/mrahma04/tech-blog-v2.0',
             description: 'Built using JS, Handlebars, CSS, HTML',
-            imageUrl: '/assets/img/tech-blog.jpeg'
+            imageUrl: '../assets/img/tech-blog.jpeg'
         },
         {
             name: 'Password Generator',

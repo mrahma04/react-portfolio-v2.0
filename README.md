@@ -9,6 +9,7 @@
 - Install Node modules using `npm i`
 - Type :pencil2:`npm start` to start app
 
+[App URL](https://mrahma04.github.io/react-portfolio-v2.0/)
 [See Walkthrough Video](https://drive.google.com/file/d/1l9BFkCazykJpPWnsXDW7ZYggEzvqSGG2/view)
 
 ### User Story
