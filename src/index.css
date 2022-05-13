@@ -19,6 +19,7 @@
       #ff6f91,
     );
     --primary: #845ec2;
+    --secondary: #ffc75f;
 }
 
 * {
@@ -37,6 +38,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
 
 .about-me-content {
@@ -137,18 +142,22 @@ header nav ul li a {
   /* flex-grow will grow in the direction of the row, right to left */
   flex: 0 0 calc(50% - 1rem);
   /* flex-basis: 50%; */
-  min-height: 12rem;
+  min-height: 16rem;
   /* background-image: var(--gradient-2); */
   /* background-image: url(../src/assets/img/marek-piwnicki-Vw608pbz7zs-unsplash.jpeg); */
   /* zooms in the image into the div and localizes to certain colors */
-  background-size: 300%;
-  background-position: left;
-  transition: background-position 1s;
-  color: #505050;
-  display: flex;
-  flex-direction: column;
+  /* background-size: 125%; */
+  /* background-position: left; */
+  /* transition: background-position 1s; */
+  /* color: #505050; */
+  /* display: flex; */
+  /* flex-direction: column; */
   padding: 1rem;
-  row-gap: .5rem;
+  /* row-gap: .5rem; */
+}
+
+.project:hover {
+  opacity: 75%;
 }
 
 .textOff {
@@ -157,6 +166,7 @@ header nav ul li a {
 
 .textOn {
   display: block;
+  color: var(--secondary);
 }
 
 .pic-2 {

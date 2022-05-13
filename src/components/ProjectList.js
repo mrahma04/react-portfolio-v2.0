@@ -9,11 +9,16 @@ function ProjectList(props) {
 
     const [textVisibility, setTextVisibility] = useState(-1)
 
-    // console.log('FROM INSIDE PROJECTLIST', projects)
-
+    // when the mouse is over any box
+    // fire this event and set the state of 'textVisbility' to equal current index number
     function handleMouseEnter(index) {
         console.log("ENTERED", index)
         setTextVisibility(index)
+        sayHello()
+    }
+
+    function sayHello() {
+        console.log('HIYAAAA')
     }
 
     console.log("TEXT VISIBILITY AFTER ENTERING ===", textVisibility)
@@ -32,22 +37,33 @@ function ProjectList(props) {
                 <div
                     className={`project`}
                     style={{
-                        backgroundImage: `url(${project.imageUrl})`
+                        backgroundImage: `url(${project.imageUrl})`,
+                        backgroundSize: '150%',
+                        backgroundPosition: 'center'
                     }}
                     onMouseEnter={() => handleMouseEnter(index)}
                     onMouseLeave={() => handleMouseLave(index)}
                     // display={textVisibility === index ? 'none' : 'block'}
                     key={index}>
                     {/* <div>{project.image}</div> */}
-                    <div className={`${textVisibility === index ? 'textOn' : 'textOff'}`}>
-                        <h3>{project.name}</h3>
-                        <a href={project.link} target="_blank">
+                    <div
+                        // compares the current box's index number to the 'textVisibility' state
+                        // set by the 'handleMouseOver' function, if they're equal...display the text
+                        className={`${textVisibility === index ? 'textOn' : 'textOff'}`}
+
+                    >
+                        <h3 style={{ padding: '1rem' }}>
+                            <a href={project.appUrl} target="_blank">
+                                {project.name}
+                            </a>
+                        </h3>
+                        <a href={project.link} target="_blank" style={{ padding: '1rem' }}>
                             <i className="fa-brands fa-github" style={{
-                                fontSize: "2rem"
+                                fontSize: "3rem"
                             }}>
                             </i>
                         </a>
-                        <p>{project.description}</p>
+                        <p style={{ padding: '1rem' }}>{project.description}</p>
                     </div>
                 </div>
             ))}
