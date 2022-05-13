@@ -16,14 +16,14 @@ function Portfolio() {
             appUrl: 'https://mrahma04.github.io/password-generator-v2.0/',
             link: 'https://github.com/mrahma04/password-generator-v2.0',
             description: 'Built using JS, CSS, HTML',
-            imageUrl: '/assets/img/password-generator.jpeg'
+            imageUrl: 'assets/img/password-generator.jpeg'
         },
         {
             name: 'Code Quiz',
             appUrl: 'https://mrahma04.github.io/code-quiz-v2.0/',
             link: 'https://github.com/mrahma04/code-quiz-v2.0',
             description: 'Built using JS, HTML',
-            imageUrl: '../../src/assets/img/code-quiz.jpeg'
+            imageUrl: './public/assets/img/code-quiz.jpeg'
         },
         {
             name: 'Note Taker',
