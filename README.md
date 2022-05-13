@@ -45,11 +45,21 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 ### Screenshots
 ![](/other/2022-05-13-19-07-51.png)
+
+#### Responsive Design
 ![](/other/2022-05-13-19-11-07.png)
+
+#### Portfolio
 ![](/other/2022-05-13-19-08-20.png)
+
+#### Porfolio with project title, url and GH repo link using hover effect
 ![](/other/2022-05-13-19-08-52.png)
 ![](/other/2022-05-13-19-09-11.png)
+
+#### Contact section with some error handling and validation
 ![](/other/2022-05-13-19-09-27.png)
 ![](/other/2022-05-13-19-10-05.png)
 ![](/other/2022-05-13-19-10-18.png)
+
+#### Resume section with a downloadable copy of my resume
 ![](/other/2022-05-13-19-10-38.png)
