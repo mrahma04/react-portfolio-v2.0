@@ -1,4 +1,4 @@
-# Employee Tracker v2.0 :gem::diamonds:
+# React Portfolio v2.0 :gem::diamonds:
 
 #### This is my Portfolio site build entirely using React. It is a Single Page Application (SPA) with 4 sections including an About Me, Portfolio, Contact and Resume. From the Resume page, you can download a PDF of my resume or use the Contact section to send me a message. The site is also build using responsive web design principles and the layout dynamically changes based on screen size.
 
