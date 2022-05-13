@@ -2,7 +2,7 @@ import Header from './components/Header'
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
 import Resume from './components/Resume';
 import { useState } from 'react';
 // import './App.css';
@@ -37,7 +37,7 @@ function App() {
     if (currentPage.name === 'Portfolio') {
       return <Portfolio></Portfolio>
     } else if (currentPage.name === 'Contact') {
-      return <Contact></Contact>
+      return <ContactForm></ContactForm>
     } else if (currentPage.name === 'Resume') {
       return <Resume></Resume>
     } else {
